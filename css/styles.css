@@ -2,7 +2,8 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   align-items: center;
-  background-color: rgba(95, 158, 160, 0.562);
+  background-color: rgba(146, 184, 185, 0.562);
+  font-family: "Roboto", sans-serif;
 }
 
 button {
@@ -17,28 +18,29 @@ button {
 }
 
 .jumbotron {
-  background-color: #0353a4;
+  background-color: #001845;
   color: white;
   text-align: center;
+  font-family: "Tourney", cursive;
 }
 
 #numberSubmit {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #result {
-  display:flex;
+  display: flex;
   background: #a8abb3;
-  padding:20px;
-  border-radius:30px;
-  min-width:40px;
-  max-width:220px;
-  min-height:40px;
-  margin:20px;
-  position:relative;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
+  padding: 20px;
+  border-radius: 30px;
+  min-width: 40px;
+  max-width: 220px;
+  min-height: 40px;
+  margin: 30px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #result:before,
