@@ -48,3 +48,7 @@ Expected Output: ""
 Test: "It will return the number 3 with 'Won't you be my neighbor?'"
 Code: rogerReplace(3)
 Expected Output: "Won't you be my neighbor?"
+
+Test: "It will replace 2 and 1 with Boop! or Beep!"  
+Code: rogerReplace(2)
+Expected Output: "Boop!"
