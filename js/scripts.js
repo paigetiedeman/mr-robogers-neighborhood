@@ -22,7 +22,7 @@ function rogerReplace(number){
     } else if (i == 1) {
       numberArray.push(one);
     } else {
-      
+      numberArray.push(i)
     }
   }
   return numberArray;

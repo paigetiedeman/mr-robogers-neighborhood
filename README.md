@@ -39,16 +39,20 @@ _Paige Tiedeman **paigetiedeman@gmail.com**_
 
 ## Tests
 
-Describe: rogerReplace()
+Describe: rogerReplace()  
 
-Test: "It will return a number to the console"  
-Code: rogerReplace(1)
-Expected Output: ""
+Test: "It will return a number to the console"    
+Code: rogerReplace(1)  
+Expected Output: ""  
 
-Test: "It will return the number 3 with 'Won't you be my neighbor?'"
-Code: rogerReplace(3)
-Expected Output: "Won't you be my neighbor?"
+Test: "It will return the number 3 with 'Won't you be my neighbor?'"  
+Code: rogerReplace(3)  
+Expected Output: "Won't you be my neighbor?"  
 
 Test: "It will replace 2 and 1 with Boop! or Beep!"  
-Code: rogerReplace(2)
-Expected Output: "Boop!"
+Code: rogerReplace(2)  
+Expected Output: "Boop!"  
+
+Test: "If number does not equal 1,2 or 3 the inputted number will show"  
+Code rogerReplace(5)
+Expected Output: "0", "Beep!", "Boop!" "Won't you be my neighbor?", "4", "5"
