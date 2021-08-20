@@ -56,3 +56,7 @@ Expected Output: "Boop!"
 Test: "If number does not equal 1,2 or 3 the inputted number will show"  
 Code rogerReplace(5)
 Expected Output: "0", "Beep!", "Boop!" "Won't you be my neighbor?", "4", "5"
+
+Test: "It will change numbers including 1, 2 or 3 to specified strings"
+Code: rogerReplace(13)
+Expected Output: .. "", "", "Won't you be my neighbor?"
