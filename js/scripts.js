@@ -36,5 +36,12 @@ $(document).ready(function () {
     event.preventDefault();
     const number = $("#roboNumber").val();
     $("#result").html(rogerReplace(number));
+    const nameInput = $("input#name").val();
+    $(".name").append(nameInput);
   })
 });
+
+// WIP reverse function
+// rogerReverse(number){
+  // return.split("").reverse.join(", ");
+// }

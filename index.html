@@ -11,8 +11,15 @@
 
 <body>
   <div id="container">
-    <h1>It's a Beautiful Day in the Neighborhood!</h1>
+    <div class="jumbotron">
+    <h1>Welcome <span class="name"></span>, It's a Beautiful Day in the Neighborhood!</h1>
+    </div>
     <form id="number-input">
+    <div class="form-group row">
+      <label for="name" class="col-sm-2 col-form-label">Name</label>
+      <input id="name" type="text" required>
+      <button type="submit" class="btn btn-primary">Welcome!</button>
+    </div>
       <div class="form-group row">
         <label for="roboNumber" class="col-sm-2 col-form-label"> Input a Number Please:</label>
         <div class="col-sm-10">
@@ -20,14 +27,14 @@
         </div>
       </div>
       <div class="form-group row">
-        <div class="col-sm-10">
-          <button type="submit" id="numberSubmit">Submit!</button>
+        <div class="col-sm-10 ">
+          <button type="submit" class="btn-lg btn-block" id="numberSubmit">Submit!</button>
+          <div id="result">
+
+          </div>
         </div>
       </div>
     </form>
-    <div id="result">
-
-    </div>
   </div>
 </body>
 
