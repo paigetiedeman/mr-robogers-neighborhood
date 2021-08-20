@@ -36,3 +36,11 @@ Copyright (c) 2021 Paige Tiedeman
 ## Contact Information
 
 _Paige Tiedeman **paigetiedeman@gmail.com**_
+
+## Tests
+
+Describe: rogerReplace()
+
+Test: "It will return a number to the console"  
+Code: rogerReplace(1)
+Expected Output: ""
