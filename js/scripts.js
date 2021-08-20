@@ -10,11 +10,13 @@
 
 
 function rogerReplace(number){
-  let input = "";
-  for (let i = 0; i < number.length; i+= 1) {
-    input ++;
+  let numberArray = [];
+  for (let i = 0; i <= number; i++) {
+    if (i == 3) {
+      numberArray.push("Won't you be my neighbor?");
+    }
   }
-  return input;
+  return numberArray;
 }
 
 // UI Logic

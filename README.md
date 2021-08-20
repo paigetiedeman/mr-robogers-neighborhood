@@ -44,3 +44,7 @@ Describe: rogerReplace()
 Test: "It will return a number to the console"  
 Code: rogerReplace(1)
 Expected Output: ""
+
+Test: "It will return the number 3 with 'Won't you be my neighbor?'"
+Code: rogerReplace(3)
+Expected Output: "Won't you be my neighbor?"
