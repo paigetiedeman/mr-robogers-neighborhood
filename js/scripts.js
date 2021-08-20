@@ -26,7 +26,11 @@ function rogerReplace(number){
       numberArray.push(i)
     }
   }
-  return numberArray;
+  return numberArray.toString(); 
 }
 
 // UI Logic
+
+$(document).ready(function(){
+
+})
